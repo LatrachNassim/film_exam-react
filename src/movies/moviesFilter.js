@@ -9,15 +9,15 @@ class NameForm extends React.Component {
                 <form className='formfilter'> 
                     <label>
                         Titre :
-                    <input type="text" name="name" />
+                    <input type="text" name="Titre" />
                     </label>
                     <label>
                         Date de sortie :
-                    <input type="text" name="name" />
+                    <input type="date" name="Date" />
                     </label>
                     <label>
                         Catégories :
-                    <input type="text" name="name" />
+                    <input type="text" name="Categories" />
                     </label>
                     <input type="submit" value="Envoyer" />
                 </form>
@@ -25,3 +25,5 @@ class NameForm extends React.Component {
         );
     }
 }
+
+export default moviesFilter
