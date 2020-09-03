@@ -6,11 +6,11 @@ import React from 'react'
 secondUrl = fetch('http://localhost:3000/movie/2', movieObj = {
     titre: '',
     date: '',
-    categories: '',
+    categories: [],
     affiche: '',
     arrierePlan: '',
-    listesActeurs:'',
-    filmsSimilaires:''
+    listesActeurs:[],
+    filmsSimilaires:[]
 })
 .then(() => {
     console.log(movieObj);
