@@ -17,11 +17,18 @@ secondUrl = fetch('http://localhost:3000/movie/2', movieObj = {
 })
 .catch((error) => console.error("Ce film n'existe pas"));
 
+function editMovie(event) {
+    
+}
+
+function deleteMovie(e) {
+
+}
 
 return(
     <div>
-        <button onClick={}>Modifier</button>
-        <button onClick={}>Supprimer</button>
+        <button onClick={editMovie(movieObj)}>Modifier</button>
+        <button onClick={deleteMovie(movieObj)}>Supprimer</button>
     </div>
 )
 
