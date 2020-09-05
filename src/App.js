@@ -11,8 +11,8 @@ function App() {
   return <Switch>
     
      <Route path="/moviesFilter">< nameForm/>Recherche de film</Route>
-     <Route path="/moviesurl">< /></Route>
-     <Route path="/addmovies">< movie/>Ajout d'un nouveau film</Route>
+     <Route path="/moviesurl">< newUrl/></Route>
+     <Route path="/addmovies">< addMovie/>Ajout d'un nouveau film</Route>
      </Switch>;
 }
 
