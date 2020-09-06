@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./css/moviesFilter.css"
 
 
 
@@ -19,7 +20,9 @@ class NameForm extends React.Component {
                         Catégories :
                     <input type="text" name="Categories" />
                     </label>
+                    <div className="button">
                     <input type="submit" value="Envoyer" />
+                    </div>
                 </form>
             </div>
         );
