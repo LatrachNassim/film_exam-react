@@ -3,7 +3,7 @@ import "./css/moviesurl.css"
 
 
 class newUrl extends React.Component {
-
+// Ajout d'une nouvelle url
     secondUrl = fetch('http://localhost:3000/movie/2', movieObj = {
         titre: '',
         date: '',
@@ -18,7 +18,7 @@ class newUrl extends React.Component {
         })
         .catch((error) => console.error("Ce film n'existe pas"));
     }
-
+// fonction pour les boutons modifier et supprimer
 function editMovie(event) {
 
 }
@@ -30,8 +30,8 @@ function deleteMovie(e) {
 
     return (
         <div className="btn-spe">
-            <button onClick={editMovie(movieObj)}>Modifier</button>
-            <button onClick={deleteMovie(movieObj)}>Supprimer</button>
+            <button onClick={editMovie(event)}>Modifier</button>
+            <button onClick={deleteMovie(e)}>Supprimer</button>
         </div>
     )
     

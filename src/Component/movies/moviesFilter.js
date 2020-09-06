@@ -2,7 +2,7 @@ import React from 'react';
 import "./css/moviesFilter.css"
 
 
-
+//formulaire pour faire des recherches de films en filtrant les informations
 class NameForm extends React.Component {
     render() {
         return (

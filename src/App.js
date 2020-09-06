@@ -4,9 +4,10 @@ import moviesfilter from "./Component/movies/moviesFilter";
 import moviesurl from "./Component/movies/moviesurl";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
 import './App.css';
 
+
+//Nav-bar
 function App() {
   return <Switch>
     

@@ -3,7 +3,7 @@ import axios from "axios";
 import "./css/addmovies.css"
 
 class addMovie extends ReactComponent {
-
+// Utilisation de TheMovieDatabase
      movie = axios.create(
         {
             "status_code": 7, "status_message": "Invalid API key: You must be granted a valid key.", "success": false,
@@ -11,7 +11,7 @@ class addMovie extends ReactComponent {
             "status_code": 7, "status_date": "Invalid API key: You must be granted a valid key.", "success": false
         }
     )
-
+// La datalist pour le titre et la date de sortie
     render() {
         return (
             <div className = "formlist">
