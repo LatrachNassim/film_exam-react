@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import axios from "axios";
-import { ReactComponent } from '*.svg';
+import "./css/addmovies.css"
 
 class addMovie extends ReactComponent {
 
@@ -14,7 +14,7 @@ class addMovie extends ReactComponent {
 
     render() {
         return (
-            <div>
+            <div className = "formlist">
                 <label>
 
                     <input list="titre" name="Titre" />

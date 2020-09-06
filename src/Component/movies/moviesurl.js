@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./css/moviesurl.css"
 
 
 class newUrl extends React.Component {
@@ -28,7 +29,7 @@ function deleteMovie(e) {
 
 
     return (
-        <div>
+        <div className="btn-spe">
             <button onClick={editMovie(movieObj)}>Modifier</button>
             <button onClick={deleteMovie(movieObj)}>Supprimer</button>
         </div>
